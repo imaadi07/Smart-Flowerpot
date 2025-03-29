@@ -1,22 +1,28 @@
-
 .flower-card {
   display: flex;
   width: 400px;
   height: 300px;
   border-radius: 16px;
+  border: 1.5px solid orange;
   overflow: hidden;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   margin: 20px;
+  /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5); */
+  transition: 0.3s ease-in-out;
+}
+
+.flower-card:hover {
+  /* transform: scale(1.05); */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .flower-image {
-  flex: 7; 
+  flex: 7;
   background-size: cover;
   background-position: center;
 }
 
 .flower-info {
-  flex: 3; 
+  flex: 3;
   padding: 20px;
   background: rgba(255, 255, 255, 0.9);
   display: flex;
