@@ -1,0 +1,36 @@
+
+.flower-card {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.flower-image {
+  flex: 7; 
+  background-size: cover;
+  background-position: center;
+}
+
+.flower-info {
+  flex: 3; 
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flower-info h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+.flower-info p {
+  margin: 8px 0 0;
+  color: #555;
+}

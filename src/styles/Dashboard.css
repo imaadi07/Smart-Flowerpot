@@ -1,0 +1,16 @@
+.dash-body {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  background-color: rgb(241, 241, 241);
+}
+
+.dash-heading {
+  height: 100px;
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+  display: block;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 30px;
+  color: rgb(113, 111, 111);
+}
