@@ -7,13 +7,15 @@ import LogIn from "./pages/LogIn.jsx";
 import Navbar from "./pages/Navbar.jsx";
 import Footer from "./pages/Footer.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
+import Home from "./pages/Home.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Navbar />
     {/* <LogIn /> */}
     {/* <SignUp /> */}
-    <Dashboard />
+    {/* <Dashboard /> */}
+    <Home />
     <Footer />
   </StrictMode>
 );

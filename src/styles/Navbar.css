@@ -30,3 +30,12 @@
   list-style-type: none;
   font-size: large;
 }
+
+.sign-up-btn {
+  height: 30px;
+  width: 80px;
+  font-size: medium;
+  background-color: #fadf65;
+  border: 2px solid orange;
+  border-radius: 5px;
+}

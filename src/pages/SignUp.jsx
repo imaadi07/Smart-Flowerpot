@@ -22,7 +22,6 @@ export default function SignUp() {
   return (
     <div className="sign-page">
       <div className="sign-heading">
-        <h2>PALNETS</h2>
         <p>Your smart Buddy</p>
       </div>
 
